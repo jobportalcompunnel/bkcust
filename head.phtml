@@ -2,5 +2,4 @@
 	$session = Mage::getSingleton('core/session')->getRequestDescription();
 	echo $this->getLayout()->createBlock('cms/block')->setBlockId($session)->toHtml();
 	Mage::getSingleton('core/session')->setData('request_description', '');
-	45
 ?>
