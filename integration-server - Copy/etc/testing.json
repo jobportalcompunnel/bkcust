@@ -1,0 +1,6 @@
+{
+    "mongo": {
+        "url": "testing-connection-string"
+    },
+    "PRODUCT_SERVER":"http://g3.nodesense.ai:7070"
+}

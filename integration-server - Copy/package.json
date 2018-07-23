@@ -1,0 +1,32 @@
+{
+  "name": "integration-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js --port 7070 --ip 127.0.0.1",
+    "test": "mocha  --require ./mocha.env.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^4.0.0",
+    "cors": "^2.8.4",
+    "coveralls": "^3.0.2",
+    "express": "^4.16.3",
+    "istanbul": "^0.4.5",
+    "jsonfile": "^4.0.0",
+    "minifist": "0.0.1",
+    "minimist": "^1.2.0",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.18.3",
+    "nyc": "^12.0.2",
+    "request": "^2.87.0",
+    "request-promise": "^4.2.2",
+    "response": "^0.18.0",
+    "sinon": "^6.1.4",
+    "supertest": "^3.1.0"
+  }
+}
