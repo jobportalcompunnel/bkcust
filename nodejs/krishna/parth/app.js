@@ -1,5 +1,7 @@
 /*
 "start": "nodemon parth/app.js --port 7070 --ip 127.0.0.1",
+npm start for run
+Surender@11
 */
 
 var createError = require('http-errors');
