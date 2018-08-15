@@ -31,3 +31,4 @@
 *.out
 *.app
 sitedeo/node_modules/
+angular-started/node_modules/

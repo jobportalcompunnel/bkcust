@@ -9,6 +9,7 @@ import { ServersComponent } from './servers/servers.component';
 import {Routes,RouterModule} from '@angular/router';
 import { SingleserverComponent } from './singleserver/singleserver.component';
 import { NotfoundComponent } from './notfound/notfound.component';
+import { DeoheaderComponent } from './deoheader/deoheader.component';
 
  const AppRoutes:Routes = [
  {path:'',component:HomeComponent},
@@ -25,7 +26,8 @@ import { NotfoundComponent } from './notfound/notfound.component';
     HomeComponent,
     ServersComponent,
     SingleserverComponent,
-    NotfoundComponent
+    NotfoundComponent,
+    DeoheaderComponent
    
   ],
   imports: [
